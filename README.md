@@ -1,5 +1,3 @@
-Mitochondrial genome assembly combining Pacbio SMRT and Illumina MiSeq technologies
-
 # De novo assembly of plant mitochondrial DNA using Pacbio SMRT and Illumina MiSeq technologies
 
 ## Materials
