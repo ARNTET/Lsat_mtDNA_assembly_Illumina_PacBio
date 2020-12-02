@@ -18,7 +18,7 @@ L. sativa var. capitata L. nidus tenerrima Pacbio sequencing was performed by Ke
 
 ### Mitochondrial assembly
 
-Contigs from Illumina MiSeq paired-end (2 x 151 bases) were built with the organellar de novo assembler Novoplasty (k-mer 22). This led to 48 contigs, among them 22 were confirmed as mtDNA contigs by BLAST. Repeated regions were identified as the overlap between 4 different contigs and particularly three large ones: : R01 (34 696 bp), R02 (10 430 bp) and R03 (3 552 bp).
+Contigs from Illumina MiSeq paired-end (2 x 151 bases) were built with the organellar de novo assembler Novoplasty (see config.txt for used parameters). This led to 48 contigs, among them 22 were confirmed as mtDNA contigs by BLAST. Repeated regions were identified as the overlap between 4 different contigs and particularly three large ones: : R01 (34 696 bp), R02 (10 430 bp) and R03 (3 552 bp).
 
 Raw Pacbio data delivered by Keygene were mapped on the 21 mtDNA contigs from Illumina with bwa-mem (see JGAF-Pacbio_Illumina_mtDNA_assembly.sh). Mapped Pacbio reads were then assembled using Canu to obtain 4 contigs. Among them 3 large ones were identified as mitochondrial by BLAST: 177 077 bp (PB01), 90 502 bp (PB02), and 73 475 bp (PB03).
 
