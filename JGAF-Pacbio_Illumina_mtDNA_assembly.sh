@@ -2,8 +2,8 @@
 #SBATCH --partition=fast
 #SBATCH --cpus-per-task=16
 #SBATCH --mem-per-cpu=2000
-#SBATCH --job-name="Illumina_Pa_Assembly"
-#SBATCH --output=JGAF-Illumina_Assembly%j.out
+#SBATCH --job-name="IlluPac_Assembly"
+#SBATCH --output=JGAF-IlluPac_Assembly%j.out
 
 # Modules needed ###############################################################
 module load NOVOPlasty
