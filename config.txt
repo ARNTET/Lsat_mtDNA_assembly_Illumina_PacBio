@@ -29,4 +29,4 @@ Optional:
 -----------------------
 Insert size auto      = yes
 Use Quality Scores    = no
-Output path           = b_assemblyN
+Output path           = b_assemblyN/${samples[a]}.novoplasty
